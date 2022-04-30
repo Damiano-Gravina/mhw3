@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica;
+}
+
+nav{
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    width: 30%;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+article section{
+    margin-bottom: 120px;
+}
+
+#shade{
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+a{
+    background-color: rgb(202, 125, 52);
+    margin-right: 2%;
+    color: rgb(91, 58, 41);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#mark{
+    background-color: rgb(255,165,00 );
+    margin-top: 1%;
+    color:rgb(91, 58, 41);; 
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    width: 110px;
+    margin-left: 1%;
+}
+
+#title_image{
+    background-image: url(image1.png);
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;  
+}
+
+div strong{
+    color: rgb(83, 35, 06); 
+    background-color: rgba(255,255,255, 0.5);
+    width: 90%;
+    border-radius: 25px;
+    font-size: 4.5em;
+    z-index: 1;
+}
+
+#user{
+    height: 100px;
+    width: 100px;
+    background-image: url(image2.png);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    border-radius: 50px;
+    top: -50px;
+    z-index: 2;
+}
+
+#user_info{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+section h3{
+    margin: -50px;
+}
+
+p{
+    line-height: 130%;
+    text-align: justify;
+}
+
+.number{
+    color: rgb(160, 157, 157);
+    display: inline;
+    margin-right: 40px;
+    font-size: 2em;
+    position:relative;
+    top: 40px;
+}
+
+.title{
+    color: orange;
+    font-size: 0.5em;
+}
+
+section{
+    display:block;
+    width: 66.67vw;
+    margin: auto;
+    margin-bottom: 120px; 
+}
+
+#text{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+h6{
+    color:blue;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.conclusion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    height: 500px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 700px){
+    div strong{
+        font-size: 3em;
+    }
+
+    .number{
+        font-size: 1.5em;
+        top: 30px;
+    }
+
+    article section{
+        margin-bottom: 80px;
+    }
+}
+
+
+@media (max-width: 500px){
+    
+
+    nav{
+        width: 20%;
+        height: 25px;
+        top: 20px;
+        right: 10px;
+    }
+
+    a{
+        padding: 3px;
+        font-size: 1em;
+    }
+
+    #mark{
+        padding: 5px;
+        width: 80px;
+        margin-left: 1%;
+        font-size: 1.5em;
+    }
+
+    #shade{
+        height: 300px;
+    }
+
+    #title_image{
+        height: 300px;
+    }
+
+    #user_info{
+        margin-bottom: 30px;
+    }
+
+    article section{
+        margin-bottom: 40px;
+    }
+
+        #text{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+#api1Box{
+    width:95%;
+    margin:auto;
+    margin-bottom: 50px;
+    border:2px solid rgb(216, 213, 211);
+    background-image: url("backgroundImage.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#api1{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content:space-between;
+}
+
+#api1 div{
+  border: 2px solid rgb(91, 58, 41);
+  padding: 5px;
+  max-width: 170px;
+  display: flex;
+  margin: 15px;
+  background-color: rgb(202, 125, 52);
+} 
+
+#emptyBox{
+    height: 400px;
+}
+
+button{
+    height:30px;
+    background-color: rgb(202, 125, 52);
+}
+
+#api1 div img{
+    max-width: 100%;
+}
+
